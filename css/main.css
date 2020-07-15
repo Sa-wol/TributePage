@@ -1,7 +1,8 @@
 body {
-    background-color: #FFFFFF;
-    font-family: 'Varta', sans-serif;
-    color: #704f24;
+    background-color: #8fc0a9;
+    background-image: url("https://www.transparenttextures.com/patterns/always-grey.png");
+    font-family: 'Open Sans', sans-serif;
+    color: #4A7C59;
     text-align: center;
 }
 
@@ -12,62 +13,70 @@ q {
 }
 
 ul {
+    display: block;
     text-align: justify;
-    width: 90%;
+    max-width: 700px;
+    margin: 0 auto 50px auto;
 }
 
-ul::after {
+li {
+    display: list-item;
+    text-align: justify;
+    line-height: 1.6;
+    margin: 16px 0px;
+    list-style-type: circle;
+}
+
+ul::after, #learn-more::before {
     content: "\a";
     white-space: pre;
     display: block;
 }
 
+#b1, #b2, #b3, #b4, 
+#b5, #b6, #b7, #b8, 
+#b9, #b10, #b11, #b12, #b13 {
+    font-size: larger;
+}
+
 #main {
-    background-color: lightgray;
-    margin: 35px 2px 35px 2px;
+    background-color: #FAF3DD;
+    margin: 35px 20px 35px 20px;
     padding: 40px 20px 20px 20px;
-    border-radius: 5px;
+    border-radius: 10px;
 }
 
 #title {
-    font-family: 'Raleway', sans-serif;
+    font-family: 'Abril Fatface', cursive;
     font-size: 40px;
     text-align: center;
 }
 
 #img-div {
-    background-color: #FFFFFF;
+    background-color: #C8D5B9;
+    padding: 4% 5% 3% 5%;
 }
 
-#image-div {
-    max-width: 100%;
-    height: auto;
-}
-
-#image {
+#image-div, #image {
     max-width: 100%;
     height: auto;
 }
 
 #tribute-info{
     font-weight: bold;
+    font-size: x-large;
+    font-family: 'Abril Fatface', cursive;
+    padding-top: 3%;
+    padding-bottom: 3%;
 }
 
-#tribute-info::before{
-    content: "\a";
-    white-space: pre;
-}
-
-#marie-quote {
+#quote1, #marie-quote {
     font-style: italic;
+    padding-bottom: 5px;
 }
 
-#quote2 {
+#learn-more {
     font-weight: bold;
     font-size: medium;
-}
-
-#quote2::before {
-    content: "\a";
-    white-space: pre;
+    font-family: 'Abril Fatface', cursive;
 }
