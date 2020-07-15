@@ -54,12 +54,17 @@ ul::after, #learn-more::before {
 
 #img-div {
     background-color: #C8D5B9;
-    padding: 4% 5% 3% 5%;
+    padding: 4% 4% 4% 4%;
 }
 
 #image-div, #image {
     max-width: 100%;
     height: auto;
+}
+
+#image {
+    display: block;
+    margin: auto;
 }
 
 #tribute-info{
