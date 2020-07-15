@@ -1,0 +1,73 @@
+body {
+    background-color: #FFFFFF;
+    font-family: 'Varta', sans-serif;
+    color: #704f24;
+    text-align: center;
+}
+
+q {
+    font-style: italic;
+    width: auto;
+    display: block;
+}
+
+ul {
+    text-align: justify;
+    width: 90%;
+}
+
+ul::after {
+    content: "\a";
+    white-space: pre;
+    display: block;
+}
+
+#main {
+    background-color: lightgray;
+    margin: 35px 2px 35px 2px;
+    padding: 40px 20px 20px 20px;
+    border-radius: 5px;
+}
+
+#title {
+    font-family: 'Raleway', sans-serif;
+    font-size: 40px;
+    text-align: center;
+}
+
+#img-div {
+    background-color: #FFFFFF;
+}
+
+#image-div {
+    max-width: 100%;
+    height: auto;
+}
+
+#image {
+    max-width: 100%;
+    height: auto;
+}
+
+#tribute-info{
+    font-weight: bold;
+}
+
+#tribute-info::before{
+    content: "\a";
+    white-space: pre;
+}
+
+#marie-quote {
+    font-style: italic;
+}
+
+#quote2 {
+    font-weight: bold;
+    font-size: medium;
+}
+
+#quote2::before {
+    content: "\a";
+    white-space: pre;
+}
